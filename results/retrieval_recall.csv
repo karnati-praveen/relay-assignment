@@ -1,0 +1,6 @@
+setting,questions,recall_pct,context_words_mean,pieces_mean
+p120_k4_rno,17,64.7,573.2,4.00
+p220_k6_ryes,17,70.6,1279.2,5.59
+p220_k6_rno,17,70.6,1287.5,5.59
+p450_k3_ryes,17,58.8,1200.6,3.00
+p900_k2_ryes,17,52.9,1286.9,2.00

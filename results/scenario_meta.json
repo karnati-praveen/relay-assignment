@@ -1,0 +1,68 @@
+{
+  "burst": {
+    "burst_at_s": "60",
+    "burst_count": 60,
+    "drain_s": "0.0",
+    "duration_s": "127.1",
+    "max_workers": 32,
+    "offered_rate": "6",
+    "peak_queue": 60,
+    "requests": 68,
+    "source": "stand-in"
+  },
+  "daily_exhausted": {
+    "burst_at_s": "0",
+    "burst_count": 0,
+    "drain_s": "0.0",
+    "duration_s": "45.7",
+    "max_workers": 16,
+    "offered_rate": "40",
+    "peak_queue": 2,
+    "requests": 30,
+    "source": "stand-in"
+  },
+  "overload": {
+    "burst_at_s": "0",
+    "burst_count": 0,
+    "drain_s": "0.0",
+    "duration_s": "60.3",
+    "max_workers": 48,
+    "offered_rate": "180",
+    "peak_queue": 2,
+    "requests": 178,
+    "source": "stand-in"
+  },
+  "rpm_half": {
+    "burst_at_s": "0",
+    "burst_count": 0,
+    "drain_s": "0.0",
+    "duration_s": "120.6",
+    "max_workers": 24,
+    "offered_rate": "60",
+    "peak_queue": 2,
+    "requests": 119,
+    "source": "stand-in"
+  },
+  "steady": {
+    "burst_at_s": "0",
+    "burst_count": 0,
+    "drain_s": "0.0",
+    "duration_s": "302.9",
+    "max_workers": 8,
+    "offered_rate": "20",
+    "peak_queue": 2,
+    "requests": 101,
+    "source": "stand-in"
+  },
+  "sustainable": {
+    "burst_at_s": "0",
+    "burst_count": 0,
+    "drain_s": "0.0",
+    "duration_s": "421.9",
+    "max_workers": 4,
+    "offered_rate": "1",
+    "peak_queue": 1,
+    "requests": 7,
+    "source": "stand-in"
+  }
+}

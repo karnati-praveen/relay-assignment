@@ -1,0 +1,2 @@
+setting,questions,correct_pct,wrong_pct,refused_correct_pct,tokens_per_answer,ttft_p50,ttft_p95,total_p50,total_p95
+p120_k4_rno,10,70.0,0.0,0.0,3682.1,1411.6,9335.9,2616.4,26404.7

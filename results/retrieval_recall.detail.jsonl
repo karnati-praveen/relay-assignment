@@ -1,0 +1,85 @@
+{"setting":"p120_k4_rno","qid":"q01","gold_hit":false,"patterns_missed":["dmodel = 512"],"papers":["attention","attention","attention","attention"],"pages":[8,8,8,7],"pieces":4,"context_words":605}
+{"setting":"p120_k4_rno","qid":"q02","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[15,5,13,14],"pieces":4,"context_words":469}
+{"setting":"p120_k4_rno","qid":"q03","gold_hit":true,"papers":["chunking","moshi","moshi","attention"],"pages":[11,20,20,7],"pieces":4,"context_words":602}
+{"setting":"p120_k4_rno","qid":"q04","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,8,7,3],"pieces":4,"context_words":583}
+{"setting":"p120_k4_rno","qid":"q05","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,8,1,7],"pieces":4,"context_words":593}
+{"setting":"p120_k4_rno","qid":"q06","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[4,4,4,4],"pieces":4,"context_words":559}
+{"setting":"p120_k4_rno","qid":"q07","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","moshi","moshi","moshi"],"pages":[29,21,17,31],"pieces":4,"context_words":589}
+{"setting":"p120_k4_rno","qid":"q08","gold_hit":true,"papers":["moshi","moshi","moshi","moshi"],"pages":[29,28,5,29],"pieces":4,"context_words":585}
+{"setting":"p120_k4_rno","qid":"q09","gold_hit":true,"papers":["moshi","moshi","moshi","moshi"],"pages":[41,1,26,2],"pieces":4,"context_words":557}
+{"setting":"p120_k4_rno","qid":"q10","gold_hit":false,"patterns_missed":["Q = 8 quantizers"],"papers":["moshi","moshi","moshi","moshi"],"pages":[26,7,26,24],"pieces":4,"context_words":542}
+{"setting":"p120_k4_rno","qid":"q11","gold_hit":false,"patterns_missed":["single model learned fully end-to-end"],"papers":["chunking","chunking","chunking","chunking"],"pages":[33,20,3,32],"pieces":4,"context_words":595}
+{"setting":"p120_k4_rno","qid":"q12","gold_hit":true,"papers":["chunking","chunking","chunking","chunking"],"pages":[8,2,21,4],"pieces":4,"context_words":579}
+{"setting":"p120_k4_rno","qid":"q13","gold_hit":false,"patterns_missed":["parallel streams","dispensing with recurrence"],"papers":["moshi","moshi","moshi","attention"],"pages":[24,63,26,5],"pieces":4,"context_words":612}
+{"setting":"p120_k4_rno","qid":"q14","gold_hit":true,"papers":["chunking","moshi","attention","moshi"],"pages":[11,20,7,11],"pieces":4,"context_words":584}
+{"setting":"p120_k4_rno","qid":"q15","gold_hit":true,"papers":["moshi","moshi","moshi","moshi"],"pages":[7,7,37,6],"pieces":4,"context_words":548}
+{"setting":"p120_k4_rno","qid":"q19","gold_hit":false,"patterns_missed":["1\\{[^}]{0,40}0\\.5\\}"],"papers":["chunking","chunking","chunking","chunking"],"pages":[6,32,33,2],"pieces":4,"context_words":581}
+{"setting":"p120_k4_rno","qid":"q20","gold_hit":true,"papers":["chunking","chunking","chunking","chunking"],"pages":[1,1,1,1],"pieces":4,"context_words":561}
+{"setting":"p220_k6_ryes","qid":"q01","gold_hit":false,"patterns_missed":["dmodel = 512"],"papers":["attention","attention","attention","attention","attention","attention"],"pages":[9,8,8,9,9,8],"pieces":6,"context_words":1269}
+{"setting":"p220_k6_ryes","qid":"q02","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[5,15,14,9,4,3],"pieces":6,"context_words":1398}
+{"setting":"p220_k6_ryes","qid":"q03","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,8,7,7],"pieces":4,"context_words":895}
+{"setting":"p220_k6_ryes","qid":"q04","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,3,7,3],"pieces":4,"context_words":752}
+{"setting":"p220_k6_ryes","qid":"q05","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[8,1,9,8,10,1],"pieces":6,"context_words":1431}
+{"setting":"p220_k6_ryes","qid":"q06","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[4,4,5,5,1,9],"pieces":6,"context_words":1469}
+{"setting":"p220_k6_ryes","qid":"q07","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[21,6,31,15,5,29],"pieces":6,"context_words":1358}
+{"setting":"p220_k6_ryes","qid":"q08","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[31,29,28,26,41,5],"pieces":6,"context_words":1314}
+{"setting":"p220_k6_ryes","qid":"q09","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[41,26,41,1,2,2],"pieces":6,"context_words":1340}
+{"setting":"p220_k6_ryes","qid":"q10","gold_hit":false,"patterns_missed":["Q = 8 quantizers"],"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[26,12,26,32,57,7],"pieces":6,"context_words":1336}
+{"setting":"p220_k6_ryes","qid":"q11","gold_hit":false,"patterns_missed":["single model learned fully end-to-end"],"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[6,20,32,33,4,5],"pieces":6,"context_words":1510}
+{"setting":"p220_k6_ryes","qid":"q12","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[21,8,2,22,4,31],"pieces":6,"context_words":1414}
+{"setting":"p220_k6_ryes","qid":"q13","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","attention","attention","moshi","attention","moshi"],"pages":[62,5,1,24,15,26],"pieces":6,"context_words":1353}
+{"setting":"p220_k6_ryes","qid":"q14","gold_hit":true,"papers":["attention","attention","attention"],"pages":[7,8,8],"pieces":3,"context_words":638}
+{"setting":"p220_k6_ryes","qid":"q15","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[7,7,7,62,37,32],"pieces":6,"context_words":1416}
+{"setting":"p220_k6_ryes","qid":"q19","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[6,32,32,33,32,18],"pieces":6,"context_words":1483}
+{"setting":"p220_k6_ryes","qid":"q20","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[1,1,1,34,4,4],"pieces":6,"context_words":1370}
+{"setting":"p220_k6_rno","qid":"q01","gold_hit":false,"patterns_missed":["dmodel = 512"],"papers":["attention","attention","attention","attention","attention","attention"],"pages":[9,8,9,8,8,9],"pieces":6,"context_words":1269}
+{"setting":"p220_k6_rno","qid":"q02","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[15,14,5,9,7,4],"pieces":6,"context_words":1396}
+{"setting":"p220_k6_rno","qid":"q03","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,8,7,7],"pieces":4,"context_words":895}
+{"setting":"p220_k6_rno","qid":"q04","gold_hit":true,"papers":["attention","attention","attention","attention"],"pages":[8,7,3,3],"pieces":4,"context_words":752}
+{"setting":"p220_k6_rno","qid":"q05","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[8,9,8,1,10,7],"pieces":6,"context_words":1471}
+{"setting":"p220_k6_rno","qid":"q06","gold_hit":true,"papers":["attention","attention","attention","attention","attention","attention"],"pages":[4,4,5,5,1,9],"pieces":6,"context_words":1469}
+{"setting":"p220_k6_rno","qid":"q07","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[21,6,15,31,15,5],"pieces":6,"context_words":1341}
+{"setting":"p220_k6_rno","qid":"q08","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[29,31,28,26,41,5],"pieces":6,"context_words":1314}
+{"setting":"p220_k6_rno","qid":"q09","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[26,41,41,1,2,2],"pieces":6,"context_words":1340}
+{"setting":"p220_k6_rno","qid":"q10","gold_hit":false,"patterns_missed":["Q = 8 quantizers"],"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[26,12,26,7,14,32],"pieces":6,"context_words":1408}
+{"setting":"p220_k6_rno","qid":"q11","gold_hit":false,"patterns_missed":["single model learned fully end-to-end"],"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[20,6,32,33,4,5],"pieces":6,"context_words":1510}
+{"setting":"p220_k6_rno","qid":"q12","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[21,2,8,22,4,31],"pieces":6,"context_words":1414}
+{"setting":"p220_k6_rno","qid":"q13","gold_hit":false,"patterns_missed":["parallel streams","dispensing with recurrence"],"papers":["moshi","moshi","moshi","moshi","moshi","attention"],"pages":[62,24,26,65,63,5],"pieces":6,"context_words":1447}
+{"setting":"p220_k6_rno","qid":"q14","gold_hit":true,"papers":["attention","attention","attention"],"pages":[7,8,8],"pieces":3,"context_words":638}
+{"setting":"p220_k6_rno","qid":"q15","gold_hit":true,"papers":["moshi","moshi","moshi","moshi","moshi","moshi"],"pages":[7,7,37,7,62,6],"pieces":6,"context_words":1371}
+{"setting":"p220_k6_rno","qid":"q19","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[6,32,32,18,33,32],"pieces":6,"context_words":1483}
+{"setting":"p220_k6_rno","qid":"q20","gold_hit":true,"papers":["chunking","chunking","chunking","chunking","chunking","chunking"],"pages":[1,1,1,34,4,4],"pieces":6,"context_words":1370}
+{"setting":"p450_k3_ryes","qid":"q01","gold_hit":false,"patterns_missed":["dmodel = 512"],"papers":["attention","attention","attention"],"pages":[9,8,8],"pieces":3,"context_words":1105}
+{"setting":"p450_k3_ryes","qid":"q02","gold_hit":true,"papers":["attention","attention","attention"],"pages":[13,5,9],"pieces":3,"context_words":1441}
+{"setting":"p450_k3_ryes","qid":"q03","gold_hit":false,"patterns_missed":["warmup_steps = 4000","inverse square root"],"papers":["moshi","chunking","moshi"],"pages":[20,12,8],"pieces":3,"context_words":1361}
+{"setting":"p450_k3_ryes","qid":"q04","gold_hit":true,"papers":["attention","attention","attention"],"pages":[8,3,7],"pieces":3,"context_words":930}
+{"setting":"p450_k3_ryes","qid":"q05","gold_hit":true,"papers":["attention","attention","attention"],"pages":[8,1,9],"pieces":3,"context_words":1354}
+{"setting":"p450_k3_ryes","qid":"q06","gold_hit":true,"papers":["attention","attention","attention"],"pages":[4,5,1],"pieces":3,"context_words":1311}
+{"setting":"p450_k3_ryes","qid":"q07","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","moshi","moshi"],"pages":[6,31,15],"pieces":3,"context_words":986}
+{"setting":"p450_k3_ryes","qid":"q08","gold_hit":false,"patterns_missed":["Inner Monologue decomposes speech"],"papers":["moshi","moshi","moshi"],"pages":[41,31,16],"pieces":3,"context_words":1416}
+{"setting":"p450_k3_ryes","qid":"q09","gold_hit":true,"papers":["moshi","moshi","moshi"],"pages":[41,1,25],"pieces":3,"context_words":1256}
+{"setting":"p450_k3_ryes","qid":"q10","gold_hit":false,"patterns_missed":["Q = 8 quantizers"],"papers":["moshi","moshi","moshi"],"pages":[26,24,12],"pieces":3,"context_words":1147}
+{"setting":"p450_k3_ryes","qid":"q11","gold_hit":false,"patterns_missed":["single model learned fully end-to-end"],"papers":["chunking","chunking","chunking"],"pages":[32,6,5],"pieces":3,"context_words":1173}
+{"setting":"p450_k3_ryes","qid":"q12","gold_hit":true,"papers":["chunking","chunking","chunking"],"pages":[4,2,8],"pieces":3,"context_words":1168}
+{"setting":"p450_k3_ryes","qid":"q13","gold_hit":false,"patterns_missed":["parallel streams","dispensing with recurrence"],"papers":["moshi","moshi","attention"],"pages":[62,24,5],"pieces":3,"context_words":1094}
+{"setting":"p450_k3_ryes","qid":"q14","gold_hit":true,"papers":["moshi","moshi","attention"],"pages":[20,8,7],"pieces":3,"context_words":998}
+{"setting":"p450_k3_ryes","qid":"q15","gold_hit":true,"papers":["moshi","moshi","moshi"],"pages":[7,62,32],"pieces":3,"context_words":1418}
+{"setting":"p450_k3_ryes","qid":"q19","gold_hit":true,"papers":["chunking","chunking","chunking"],"pages":[6,32,32],"pieces":3,"context_words":1223}
+{"setting":"p450_k3_ryes","qid":"q20","gold_hit":true,"papers":["chunking","chunking","chunking"],"pages":[1,1,4],"pieces":3,"context_words":1030}
+{"setting":"p900_k2_ryes","qid":"q01","gold_hit":false,"patterns_missed":["dmodel = 512"],"papers":["attention","attention"],"pages":[9,8],"pieces":2,"context_words":1109}
+{"setting":"p900_k2_ryes","qid":"q02","gold_hit":true,"papers":["attention","attention"],"pages":[5,9],"pieces":2,"context_words":1092}
+{"setting":"p900_k2_ryes","qid":"q03","gold_hit":true,"papers":["attention","attention"],"pages":[7,8],"pieces":2,"context_words":1136}
+{"setting":"p900_k2_ryes","qid":"q04","gold_hit":true,"papers":["attention","attention"],"pages":[8,3],"pieces":2,"context_words":1307}
+{"setting":"p900_k2_ryes","qid":"q05","gold_hit":false,"patterns_missed":["28\\.4 BLEU"],"papers":["attention","attention"],"pages":[8,9],"pieces":2,"context_words":1109}
+{"setting":"p900_k2_ryes","qid":"q06","gold_hit":true,"papers":["attention","attention"],"pages":[3,5],"pieces":2,"context_words":1290}
+{"setting":"p900_k2_ryes","qid":"q07","gold_hit":true,"papers":["moshi","moshi"],"pages":[6,1],"pieces":2,"context_words":1225}
+{"setting":"p900_k2_ryes","qid":"q08","gold_hit":false,"patterns_missed":["Inner Monologue decomposes speech"],"papers":["moshi","moshi"],"pages":[16,41],"pieces":2,"context_words":1542}
+{"setting":"p900_k2_ryes","qid":"q09","gold_hit":false,"patterns_missed":["160ms, 200ms in practice"],"papers":["moshi","moshi"],"pages":[26,41],"pieces":2,"context_words":1519}
+{"setting":"p900_k2_ryes","qid":"q10","gold_hit":false,"patterns_missed":["Q = 8 quantizers"],"papers":["moshi","moshi"],"pages":[24,26],"pieces":2,"context_words":1241}
+{"setting":"p900_k2_ryes","qid":"q11","gold_hit":false,"patterns_missed":["single model learned fully end-to-end"],"papers":["chunking","chunking"],"pages":[34,9],"pieces":2,"context_words":1421}
+{"setting":"p900_k2_ryes","qid":"q12","gold_hit":false,"patterns_missed":["H-Net adopts the hierarchical architecture"],"papers":["chunking","chunking"],"pages":[4,1],"pieces":2,"context_words":1168}
+{"setting":"p900_k2_ryes","qid":"q13","gold_hit":false,"patterns_missed":["parallel streams"],"papers":["moshi","attention"],"pages":[62,1],"pieces":2,"context_words":1319}
+{"setting":"p900_k2_ryes","qid":"q14","gold_hit":true,"papers":["moshi","attention"],"pages":[20,7],"pieces":2,"context_words":1214}
+{"setting":"p900_k2_ryes","qid":"q15","gold_hit":true,"papers":["moshi","moshi"],"pages":[7,62],"pieces":2,"context_words":1526}
+{"setting":"p900_k2_ryes","qid":"q19","gold_hit":true,"papers":["chunking","chunking"],"pages":[32,6],"pieces":2,"context_words":1307}
+{"setting":"p900_k2_ryes","qid":"q20","gold_hit":true,"papers":["chunking","chunking"],"pages":[1,23],"pieces":2,"context_words":1353}

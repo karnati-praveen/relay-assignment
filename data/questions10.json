@@ -1,0 +1,107 @@
+{
+  "note": "Questions written by me to grade the assistant. 'expect' is my ground-truth judgement after reading the three papers at their pinned versions (Attention 1706.03762v7, Moshi 2410.00037v1, Dynamic Chunking 2507.07955v2). correct = answerable from the papers and the reply must cite; refused = the papers genuinely do not contain the answer, so the only correct behaviour is a refusal; adversarial = answerable only if retrieval is careful (the naive failure modes in heading 6). The optional 'gold' list is the statement in the paper that answers the question, as regular expressions that must all appear in the context a retrieval setting returns. It measures retrieval alone (no model call) so every setting can be compared without spending the daily token budget. First ten questions only: the two comparison settings for Table 3 reuse this subset so the quality percentage is measured on the same questions as the first half of the chosen sweep.",
+  "questions": [
+    {
+      "id": "q01",
+      "text": "What is the dimension of the model (d_model) used in the base Transformer?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Attention Is All You Need, base model section: d_model = 512.",
+      "gold": [
+        "dmodel = 512"
+      ]
+    },
+    {
+      "id": "q02",
+      "text": "How many attention heads does the base Transformer use, and what is the dimension of each head?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Base model uses h = 8 heads with d_k = d_v = 64.",
+      "gold": [
+        "h = 8 parallel attention layers",
+        "dk = dv"
+      ]
+    },
+    {
+      "id": "q03",
+      "text": "What learning-rate warmup schedule does the Transformer use during training?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Section 5.3: linear warmup then inverse-square-root decay.",
+      "gold": [
+        "warmup_steps = 4000",
+        "inverse square root"
+      ]
+    },
+    {
+      "id": "q04",
+      "text": "Which regularization technique does the Transformer apply to its residual connections, and at what rate?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Dropout on residual connections, rate 0.1.",
+      "gold": [
+        "Pdrop = 0\\.1"
+      ]
+    },
+    {
+      "id": "q05",
+      "text": "What BLEU score does the big Transformer achieve on English-to-German translation?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Results table: 28.4 BLEU on WMT 2014 EN-DE.",
+      "gold": [
+        "28\\.4 BLEU"
+      ]
+    },
+    {
+      "id": "q06",
+      "text": "Why does scaled dot-product attention divide by the square root of d_k?",
+      "expect": "correct",
+      "paper": "attention",
+      "why": "Section 3.2.1: otherwise the dot products grow large and push softmax into tiny gradients.",
+      "gold": [
+        "dot products grow large"
+      ]
+    },
+    {
+      "id": "q07",
+      "text": "How does Moshi handle the streaming mismatch between the user and the model?",
+      "expect": "correct",
+      "paper": "moshi",
+      "why": "Moshi models two parallel audio streams and uses a time-aligned text stream.",
+      "gold": [
+        "parallel streams"
+      ]
+    },
+    {
+      "id": "q08",
+      "text": "What is the 'Inner Monologue' in Moshi?",
+      "expect": "correct",
+      "paper": "moshi",
+      "why": "Text tokens from ASR are used as a prefix on the model's own audio, improving linguistic quality.",
+      "gold": [
+        "Inner Monologue decomposes speech"
+      ]
+    },
+    {
+      "id": "q09",
+      "text": "What theoretical and practical latency does Moshi achieve for real-time spoken dialogue?",
+      "expect": "correct",
+      "paper": "moshi",
+      "why": "The abstract states 160 ms theoretical latency and 200 ms in practice; it does not tie that measurement to a consumer device.",
+      "gold": [
+        "160ms, 200ms in practice"
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "What is the RVQ depth used for the audio tokenizer in Moshi?",
+      "expect": "correct",
+      "paper": "moshi",
+      "why": "The Mimi codec uses an 8-level residual vector quantizer.",
+      "gold": [
+        "Q = 8 quantizers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+setting,questions,correct_pct,wrong_pct,refused_correct_pct,tokens_per_answer,ttft_p50,ttft_p95,total_p50,total_p95
+p450_k3_ryes,10,100.0,0.0,0.0,6080.8,2288.3,3903.3,3935.8,27414.2

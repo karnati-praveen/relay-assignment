@@ -1,0 +1,44 @@
+[p220_k6_ryes] q01 pacing: waiting 2750s to earn back 6332 tokens
+resume: 0 completed question(s) already in results/quality_fix20.detail.jsonl
+[p220_k6_ryes] q01 pacing: waiting 2750s to earn back 6332 tokens
+[p220_k6_ryes] q01 -> correct (2719ms, 4198+934 tok, src=real)
+[p220_k6_ryes] q02 pacing: waiting 2232s to earn back 5132 tokens
+[p220_k6_ryes] q02 -> correct (2097ms, 4939+497 tok, src=real)
+[p220_k6_ryes] q03 pacing: waiting 2363s to earn back 5436 tokens
+[p220_k6_ryes] q03 -> correct (2329ms, 3589+528 tok, src=real)
+[p220_k6_ryes] q04 pacing: waiting 1793s to earn back 4117 tokens
+[p220_k6_ryes] q04 -> correct (2491ms, 4891+722 tok, src=real)
+[p220_k6_ryes] q05 pacing: waiting 2439s to earn back 5613 tokens
+[p220_k6_ryes] q05 -> correct (2815ms, 5773+535 tok, src=real)
+[p220_k6_ryes] q06 pacing: waiting 2740s to earn back 6308 tokens
+[p220_k6_ryes] q06 -> correct (2734ms, 4904+801 tok, src=real)
+[p220_k6_ryes] q07 pacing: waiting 2479s to earn back 5705 tokens
+[p220_k6_ryes] q07 -> correct (2554ms, 4789+1012 tok, src=real)
+[p220_k6_ryes] q08 pacing: waiting 2521s to earn back 5801 tokens
+[p220_k6_ryes] q08 -> correct (26234ms, 9135+2227 tok, src=real)
+[p220_k6_ryes] q09 pacing: waiting 4923s to earn back 11362 tokens
+[p220_k6_ryes] q09 -> correct (1896ms, 4858+484 tok, src=real)
+[p220_k6_ryes] q10 pacing: waiting 2322s to earn back 5342 tokens
+[p220_k6_ryes] q10 -> correct (2506ms, 4756+1094 tok, src=real)
+[p220_k6_ryes] q11 pacing: waiting 2542s to earn back 5850 tokens
+[p220_k6_ryes] q11 -> refused_wrongly (3254ms, 5276+1063 tok, src=real)
+[p220_k6_ryes] q12 pacing: waiting 2753s to earn back 6339 tokens
+[p220_k6_ryes] q12 -> correct (3929ms, 4696+733 tok, src=real)
+[p220_k6_ryes] q13 pacing: waiting 2360s to earn back 5429 tokens
+[p220_k6_ryes] q13 -> correct (4449ms, 5588+1752 tok, src=real)
+[p220_k6_ryes] q14 pacing: waiting 3185s to earn back 7340 tokens
+[p220_k6_ryes] q14 -> correct (4108ms, 3648+657 tok, src=real)
+[p220_k6_ryes] q15 pacing: waiting 1874s to earn back 4305 tokens
+[p220_k6_ryes] q15 -> refused_wrongly (1302ms, 2643+142 tok, src=real)
+[p220_k6_ryes] q16 pacing: waiting 1218s to earn back 2785 tokens
+[p220_k6_ryes] q16 -> refused_correctly (2031ms, 2155+165 tok, src=real)
+[p220_k6_ryes] q17 pacing: waiting 1017s to earn back 2320 tokens
+[p220_k6_ryes] q17 -> refused_correctly (2598ms, 2934+150 tok, src=real)
+[p220_k6_ryes] q18 pacing: waiting 1347s to earn back 3084 tokens
+[p220_k6_ryes] q18 -> refused_correctly (1390ms, 2421+390 tok, src=real)
+[p220_k6_ryes] q19 pacing: waiting 1229s to earn back 2811 tokens
+[p220_k6_ryes] q19 -> correct (3251ms, 5569+631 tok, src=real)
+[p220_k6_ryes] q20 pacing: waiting 2693s to earn back 6200 tokens
+[p220_k6_ryes] q20 -> correct (4181ms, 4917+582 tok, src=real)
+[p220_k6_ryes] evaluated=20 not_measured=0 correct=15 wrong=0 refused_correct=3 refused_wrong=2
+wrote results/quality_fix20.csv

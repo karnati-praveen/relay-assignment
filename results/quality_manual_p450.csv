@@ -1,0 +1,11 @@
+qid,verdict,page_ok,note
+q01,correct,yes,"d_model=512; p.9 Table 3 base model row carries the dimension"
+q02,correct,yes,"8 attention heads, 64 dimension per head; cited attention p.5 carries the fact verbatim"
+q03,correct,yes,"warmup_steps=4000 then inverse-sqrt decay; cited attention p.7/p.8 carries the schedule"
+q04,correct,yes,"residual dropout Pdrop=0.1 for base model; cited attention p.8"
+q05,correct,yes,"Transformer (big) 28.4 EN-DE BLEU; cited attention p.8 Table 2"
+q06,correct,yes,"divide dot products by sqrt(d_k) to counteract softmax saturation; cited attention p.4"
+q07,correct,yes,"two-stream full duplex modeling user and Moshi audio in parallel; cited moshi p.15"
+q08,correct,yes,"Inner Monologue models text before audio (text -> semantic -> acoustic); cited moshi p.5 and p.26"
+q09,wrong,no,"figures are right (160 ms theoretical, 200 ms practical) but cited moshi p.2 only carries 160 ms; 200 ms practical is in p.1 abstract"
+q10,correct,yes,"RVQ depth 8 levels (8 audio codebooks); cited moshi p.25"

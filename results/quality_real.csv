@@ -1,0 +1,2 @@
+setting,questions,correct_pct,wrong_pct,refused_correct_pct,tokens_per_answer,ttft_p50,ttft_p95,total_p50,total_p95
+p220_k6_ryes,20,60.0,0.0,15.0,6045.8,1609.7,3353.8,2583.4,24683.4

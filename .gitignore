@@ -1,0 +1,5 @@
+.groq_key
+bin/
+results/tmp_*
+results/tmp_dryrun/
+results/archive_pre_hardening/

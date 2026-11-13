@@ -1,0 +1,21 @@
+qid,verdict,page_ok,note
+q01,correct,no,"512 is right; p.9 is Table 3's base row, the defining sentence is p.3 and retrieval missed it (dmodel is one token in the PDF text)"
+q02,correct,yes,"8 heads, 64 per head; cited p.5 is the exact sentence the 200-character checker could not see"
+q03,correct,yes,"linear warmup then inverse-sqrt decay, warmup_steps=4000; p.7 carries the formula and the sentence verbatim"
+q04,correct,yes,"p.8's 'Residual Dropout' paragraph verbatim: dropout on each sub-layer output before the add-and-normalize, Pdrop=0.1 for the base model"
+q05,correct,yes,"p.8 Table 2: Transformer (big) 28.4 EN-DE, the row the answer names"
+q06,correct,yes,"p.4 §3.2.1: large d_k makes dot products large, softmax saturates into regions of tiny gradient; dividing by sqrt(d_k) is the stated fix"
+q07,refused_wrongly,n/a,"refused on a claim the paper does make: Moshi models the user and Moshi audio streams in parallel (two-stream design, full-duplex); verifier flagged the draft as unsupported and the pipeline refused instead of answering"
+q08,refused_wrongly,n/a,"refused on a fact Moshi states: Inner Monologue decomposes speech into text, semantic and acoustic tokens and predicts text tokens before audio, improving linguistic quality (p.5; section 3.4.4 pp.15-16); the checker twice rejected the draft for uncited claims"
+q09,wrong,no,"figures are right (160 ms theoretical, 200 ms practical) but the cited p.2 is the Introduction; the sentence is in the p.1 abstract, so the citation does not carry the fact"
+q10,correct,yes,"p.12 states 'with Q = 8 codebooks'; the primary definition is p.11 ('Q = 8 quantizers'), and both pages carry the depth"
+q11,correct,yes,p.1 abstract: replaces the tokenization-LM-detokenization pipeline with one end-to-end hierarchical model; claims it outperforms token-based Transformers and scales better with data
+q12,correct,yes,"p.2 states the H-Net adopts a hierarchical architecture resembling an autoregressive U-Net (encoder, compressed-chunk main network, decoder); answer reproduces that with the right citation"
+q13,not_measured,n/a,"operational stop, not a model judgement: the draft call returned 'model unavailable (error)' after 3 retries and the pipeline emitted its refusal template, so no answer was produced to grade"
+q14,correct,yes,"p.7 SS5.3: Adam with beta1=0.9, beta2=0.98, epsilon=1e-9, warmup_steps=4000 then inverse-square-root decay; the paper says Adam, not AdamW, and the answer reproduces that"
+q15,refused_wrongly,n/a,"answer is the literal routing token NOT_IN_LIBRARY: the understander sent a Moshi question out of the library before retrieval, while p.7 SS3.2.1 states the SentencePiece unigram tokenizer contains 32,000 elements"
+q16,refused_correctly,n/a,"the Dynamic Chunking paper reports no WMT/BLEU results at all (zero occurrences of WMT or BLEU in the text), so refusing is right; it also avoids importing the Attention paper's EN-DE BLEU table"
+q17,refused_correctly,n/a,"cross-paper trap: the 2017 Attention paper predates Moshi and never discusses a KV-cache in it, so a refusal is the correct answer"
+q18,refused_correctly,n/a,"p.20 names H100 GPUs but gives no GPU count, and training length is reported in steps (500k/1M) not hours, so the asked quantities are not in the paper; refusing is right"
+q19,correct,yes,"p.6 eq. 4: b_t = 1{p_t >= 0.5}, i.e. a 0.5 boundary-probability threshold, which the answer correctly ties to cosine similarity 0 rather than inventing a similarity threshold"
+q20,refused_wrongly,n/a,the chunking abstract on p.1 says 'pre-processing steps such as tokenization remain a barrier to true end-to-end foundation models'; the checker rejected the draft for citation mismatch and the pipeline refused a question the paper answers

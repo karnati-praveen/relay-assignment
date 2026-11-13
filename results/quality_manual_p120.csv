@@ -1,0 +1,11 @@
+qid,verdict,page_ok,note
+q01,refused_wrongly,n/a,"refused on a fact in paper: d_model=512 on p.3/p.9; pipeline refused due to citation mismatch"
+q02,correct,yes,"8 heads, 64 per head; cited attention p.5 carries the fact"
+q03,refused_wrongly,n/a,"refused on a fact in paper: warmup_steps=4000 on p.7; verifier flagged draft for citation mismatch"
+q04,correct,yes,"p.8 residual dropout paragraph: Pdrop=0.1 for base model; cited attention p.8"
+q05,correct,yes,"p.8 Table 2: Transformer (big) achieves 28.4 EN-DE BLEU; cited attention p.8"
+q06,correct,yes,"p.4 §3.2.1: scaled dot-product divides by sqrt(d_k); cited attention p.4"
+q07,refused_wrongly,n/a,"refused on a fact in paper: Moshi dual-stream modeling; verifier rate_limited during revision"
+q08,correct,yes,"p.5 Inner Monologue jointly models text and audio; cited moshi p.5"
+q09,wrong,no,"figures are right (160 ms theoretical, 200 ms practical) but cited moshi p.2 only carries 160 ms; 200 ms practical is in p.1 abstract"
+q10,correct,yes,"p.12 states RVQ depth Q=8 codebooks; cited moshi p.12"

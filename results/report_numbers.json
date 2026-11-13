@@ -1,0 +1,26 @@
+{
+  "sweep": {
+    "asked": 20,
+    "evaluated": 19,
+    "not_measured": 1,
+    "correct": 11,
+    "wrong": 1,
+    "refused_correctly": 3,
+    "refused_wrongly": 4,
+    "correct_pct": 57.89473684210526,
+    "wrong_pct": 5.2631578947368425,
+    "refused_correct_pct": 15.789473684210526,
+    "refused_wrong_pct": 21.05263157894737,
+    "tokens_per_answer": 6364.0,
+    "ttft_p50": 1698.316,
+    "ttft_p95": 9448.518,
+    "total_p50": 2583.377,
+    "total_p95": 34689.1,
+    "wait_min": 17.08336455,
+    "wait_max": 89.81667144999999,
+    "retries": 14,
+    "page_ok": 10
+  },
+  "standin_tokens": 5626.5,
+  "cost_per_1000_usd": 0.692085
+}
