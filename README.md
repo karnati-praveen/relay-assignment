@@ -1,8 +1,6 @@
 # The Relay
 
-A small working version of a paper-question-answering assistant, built for the
-Relay assignment brief. See `report.md` for the write-up and `results/` for the
-raw measurements.
+A paper-question-answering assistant with a five-step LLM pipeline (understand -> search -> decide -> draft -> check), hybrid BM25 retrieval with re-ranking, admission control, and reproducible load measurements against a stand-in model service. See `report.md` for the full engineering write-up and `results/` for the raw measurements (663 requests, one row per request).
 
 ## Quick start (three commands)
 
